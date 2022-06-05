@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Armata&family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+body {
+  margin: 0;
+
+}
+.presentation {
+    font-family: 'PT Sans', sans-serif;
+     font-size: 2rem;
+     background-color:#ffffff;
+
+}
+.work {
+    font-family: 'PT Sans', sans-serif;
+     font-size: 2rem;
+     padding: 0 !important;
+
+}
+.work p{
+     font-size: 1rem;
+     color: #1f1f1f;
+     padding-bottom: 0;
+     margin-bottom: 0;
+     margin-top:3px;
+   
+}
+
+.epigraf {
+    position:relative;
+    top:-35px;
+    left:20vw;
+}
+
+.titol-article{
+    padding-top: 5px !important;
+    margin-top: 5px !important;
+    
+    font-size: 20px;
+    font-weight: 700 ;
+    line-height: 18px;
+
+}
+img {
+    margin-bottom: 5px;
+    width: 90%;
+}
+.tools{
+    background-color: rgba(46, 46, 46, 0.075);
+    padding-right:0.5px;
+    padding-left:0.5px;
+    top: -15px;
+    font-size:15px;
+    position:relative;
+    color:rgb(92, 92, 92)
+
+    
+}
+.row{
+    padding-right: 20vw;
+    padding-left: 20vw;
+}
+.presentation h1{
+    bottom: 25px;
+    font-weight: 44
+}
+.presentation p {
+    font-size: 1.3rem;
+
+}
+.menu {
+    font-family: 'PT Sans', sans-serif;
+    font-size:20px;
+    padding-top:3vh;
+     padding-right: 20vw;
+     padding-left: 20vw;
+     background-color:#ffffff;}
+
+.menu span{
+    padding-right: 18px;
+}
+
+a {
+    color: #ff0062 !important;
+    text-decoration: none;
+}
+
+@media only screen and (min-width: 601px) {
+    body {
+        margin: 0;
+        width: 100%;
+      
+      }
+
+      .presentation {
+         font-size: 2.5rem;
+         padding-right: 20vw;
+         padding-left: 20vw;
+         padding-bottom:3vh;
+         padding-top:3vh;
+    }
+
+    .footer {
+        font-size: 2.5rem;
+        padding-right: 20vw;
+        padding-left: 20vw;
+        padding-bottom:3vh;
+        padding-top:1vh;
+   }
+    
+  }
+
+@media only screen and (max-width: 600px) {
+    body {
+        margin: 0;
+        width: 100%;
+      
+      }
+
+      .presentation {
+         font-size: 2.5rem;
+         padding-right: 20vw;
+         padding-left: 20vw;
+         padding-bottom:3vh;
+         padding-top:3vh;
+    }
+
+  }
+
+  
